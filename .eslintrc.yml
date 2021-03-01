@@ -1,0 +1,10 @@
+---
+env:
+  node: true
+  commonjs: true
+  es2020: true
+extends:
+  - eslint:recommended
+  - plugin:vue/recommended
+parserOptions:
+  ecmaVersion: 11

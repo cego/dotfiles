@@ -1,6 +1,5 @@
 {
     "extends": "stylelint-config-standard",
-    "ignoreFiles" : ["./resources/fonts/**"],
     "rules": {
         "at-rule-empty-line-before": ["always", {"except": ["first-nested", "blockless-after-blockless"], "ignore": "after-comment"}],
         "color-hex-length": null,

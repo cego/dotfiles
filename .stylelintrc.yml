@@ -1,0 +1,18 @@
+{
+    "extends": "stylelint-config-standard",
+    "ignoreFiles" : ["./resources/fonts/**"],
+    "rules": {
+        "at-rule-empty-line-before": ["always", {"except": ["first-nested", "blockless-after-blockless"], "ignore": "after-comment"}],
+        "color-hex-length": null,
+        "declaration-empty-line-before": null,
+        "indentation": 4,
+        "no-empty-source": null,
+        "no-missing-end-of-source-newline": true,
+        "rule-empty-line-before": ["always", {"except": ["first-nested", "after-single-line-comment"], "ignore": "after-comment"}],
+        "selector-list-comma-newline-after": null,
+        "at-rule-no-unknown": [true, {
+            "ignoreAtRules": ["function", "if", "each", "include", "mixin"]
+        }]
+    }
+}
+

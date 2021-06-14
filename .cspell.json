@@ -62,7 +62,10 @@
         "PHPCS",
         "prettierrc",
         "phpmyadmin",
-        "autoupdate"
+        "autoupdate",
+        "varchar",
+        "Freespins",
+        "chargeback"
     ],
     "language": "en",
     "dictionaries": ["danish", "php", "node", "html", "typescript" , "css", "bash", "npm", "fonts"]

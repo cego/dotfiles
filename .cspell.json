@@ -69,5 +69,5 @@
     ],
     "language": "en",
     "dictionaries": ["danish", "php", "node", "html", "typescript" , "css", "bash", "npm", "fonts"],
-    "ignorePaths": ["node_modules/**", "**/vendor/**", ".git/**", "*.lock"]
+    "ignorePaths": ["node_modules/**", "**/vendor/**", ".git/**", "**/composer.lock"]
 }
